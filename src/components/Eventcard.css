@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.card-container {
+  background: #edf2f4;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  margin: 10% 5%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for scale and shadow */
+
+}
+.card-container:hover {
+  transform: scale(1.05); /* Grows 5% bigger on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Enhances shadow on hover */
+}
+
+.heading h3{
+  background-color: #3c096c;
+  color: #fff;
+  margin: 0;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "ubuntu";
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0%;
+}
+
+.para {
+  height: 125px;
+}
+
+.para p {
+  padding: 15px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  
+} 
+
+.card-container a {
+  background-color: #7b2cbf;
+  border: 2px solid transparent; /* Initial border */
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  display: block; /* Change to block to take full width */
+  margin: 0 auto 15px; /* Center the button horizontally */
+  padding: 5px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  width: fit-content; /* Ensures button width fits its content */
+  transition: all 0.3s ease; /*Smooth transition for all properties */
+}
+
+.card-container a:hover {
+  background-color: #4a0d67; /* Darker shade from the palette on hover */
+  border-color: #c77dff; /* Light purple glow outline from the palette */
+  box-shadow: 0 0 10px #c77dff, 0 0 20px #c77dff; /* Glowing effect */
+  color: white; /* Ensure the text stays white */
+  border-radius: 4px;
+}
+
+
+

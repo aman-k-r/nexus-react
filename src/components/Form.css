@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Forum&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.form-container {
+  background: #e0aaff;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+.form-container h2 {
+  font-family: "Arima";
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.sec-head {
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 30px auto;
+
+}
+
+.form-container .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.form-check-label, .form-label {
+  font-size: 0.9rem;
+  width: 100%;
+  font-weight: 500;
+  outline: none;
+  border: none;
+}
+.form-container p{
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.sub-btn {
+  transition: 0.3 sec all;
+}
+
+.sub-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.6), 0 0 20px rgba(0, 123, 255, 0.4);
+
+}
+
+@media (max-width: 800px) {
+  .form-container {
+    margin: 0;
+  }
+}

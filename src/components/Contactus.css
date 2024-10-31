@@ -1,0 +1,73 @@
+.contacts h1 {
+  text-align: center;
+  font-family: "Agdasima";
+  font-size: 75px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 2% auto;
+}
+
+.profile-card-container {
+  padding: 20px;
+}
+
+.profile-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s all ease-in-out;
+  min-height: auto; /* Set a minimum height for uniformity */
+}
+
+.profile-card:hover {
+  transform: scale(1.05); /* Slightly reduce scale effect */
+}
+
+.profile-name {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0;
+  color: #333;
+}
+
+.profile-post {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 10px 0;
+  color: #777;
+}
+
+.profile-contact {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #555;
+  text-decoration: none;
+  display: flex; /* Use flex to align icons */
+  justify-content: center; /* Center icons */
+  align-items: center; /* Align icons vertically */
+}
+
+/* Styling for the icons */
+.bx {
+  font-size: 24px; /* Increase icon size */
+  color: #555; /* Default icon color */
+  margin: 0 10px; /* Add space between icons */
+  cursor: pointer; /* Make icons clickable */
+}
+
+.bx-phone-call {
+  color: #4caf50; /* Green for phone icon */
+}
+
+.bxs-copy {
+  color: #2196f3; /* Blue for copy icon */
+  background: transparent;
+}
+.contacts {
+  padding-top: 35px;
+}

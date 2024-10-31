@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxanium:wght@200..800&display=swap");
+
+.hero-container {
+  height: 100vh; /* Make it cover the full viewport height */
+  background: url("../../public/images/Hero.jpg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 8rem;
+  margin: 0;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 960px) {
+  .hero-container {
+    margin-top: 60px;
+    background: url("../../public/images/Hero-mobile.jpg") no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+
+  .hero-text {
+    display: none;
+  }
+}

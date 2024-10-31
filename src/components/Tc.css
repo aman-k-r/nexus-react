@@ -1,0 +1,114 @@
+.tc-container {
+  background: #e0aaff;
+}
+
+.sub-container {
+  background: #F8F9FA;
+  width: 100%; 
+  max-width: 600px; 
+  border-radius: 10px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 2% auto;
+  height: 600px;
+  overflow: auto;
+}
+
+.sub-container::-webkit-scrollbar {
+  display: none; 
+}
+
+.sub-container img {
+  width: 200px; 
+}
+
+.welcome h2 {
+  font-family:"Arima" ;
+  font-size: 1.75rem;
+  margin-top: 10px; 
+  font-weight: 600; 
+}
+
+.welcome h4 {
+  font-family: "Ubuntu"; 
+  font-size: 1rem; 
+  font-weight: 400; 
+}
+
+.welcome p {
+  font-family: "Titillium"; 
+  font-weight: 500; 
+  font-size: 16px; 
+  text-align: justify; 
+  line-height: 2; 
+  color: #343A40; 
+}
+
+.welcome p span {
+  display: block; 
+  text-align: center;
+  font-family: "Forum";
+  font-weight: 700;
+  font-size: 18px; 
+  margin: 0 auto; 
+}
+
+.tc-box h2 {
+  font-size: 1.5rem;
+  font-family: "Poppins"; 
+  font-weight: 500; 
+  margin: 20px auto; 
+}
+
+.tc-box p {
+  font-family: "Titillium"; 
+  font-weight: 400; 
+  font-size: 16px; 
+  text-align: justify; 
+  color: #343A40;
+}
+
+.tc-item h4 {
+  font-size: 1.25rem; 
+  text-align: left; 
+  font-weight: 400;
+}
+
+.tc-item p {
+  font-family: "Titillium"; 
+  font-weight: 350; 
+  font-size: 15px; 
+  text-align: justify;
+  color: #343A40; 
+}
+
+.form-check-label {
+  font-size: 1rem; 
+  color: #343A40; 
+  text-align: left; 
+  display: block;
+}
+
+.regbtn {
+  font-size: 1.1rem; 
+  padding: 10px 20px; 
+  border-radius: 6px; 
+  background-color: #343A40;
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+  outline: none;
+  border: none; 
+}
+
+.regbtn:hover {
+  background-color: #000814; 
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 768px)
+{
+.sub-container{
+  margin: 0;
+  background: #d8f3dc;
+  height: auto;
+}
+} 
